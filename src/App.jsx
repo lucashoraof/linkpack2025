@@ -4,16 +4,21 @@ import { IoMoon, IoSunnyOutline } from 'react-icons/io5'
 import bgMobileLight from './assets/bg-mobile-light.jpg'
 import bgMobile from './assets/bg-mobile.jpg'
 import avatar from './assets/avatar.png'
+import image1 from './assets/image1.jpg'
+import image2 from './assets/image2.jpg'
+import image3 from './assets/image3.jpg'
+import image4 from './assets/image4.jpg'
+import image5 from './assets/image5.jpg'
 
 function App() {
   const [theme, setTheme] = useState('dark')
   const [currentSlide, setCurrentSlide] = useState(0)
   const [images, setImages] = useState([
-    'src/assets/image1.jpg',
-    'src/assets/image2.jpg',
-    'src/assets/image3.jpg',
-    'src/assets/image4.jpg',
-    'src/assets/image5.jpg'
+    image1,
+    image2,
+    image3,
+    image4,
+    image5
   ])
 
   useEffect(() => {
